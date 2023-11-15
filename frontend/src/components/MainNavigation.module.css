@@ -1,0 +1,62 @@
+.header {
+  background-color: violet;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+  margin-left: 200px;
+  margin-top: 12px;
+  font-size: 1.5rem;
+}
+
+.main-nav {
+  margin-left: 300px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.header-nav-item {
+  text-decoration: none;
+}
+
+.shopping-cart {
+  margin-left: 150px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.shopping-cart-icon {
+  margin-top: 4px;
+  font-size: 1.4rem;
+  color: yellow;
+}
+
+.log-in-out-btn {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+  border: 1.6px dotted white;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+}
